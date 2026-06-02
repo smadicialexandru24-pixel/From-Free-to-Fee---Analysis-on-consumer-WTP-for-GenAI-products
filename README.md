@@ -14,16 +14,24 @@ This repository contains the dataset, data cleaning pipelines, and statistical a
 ## 📊 Repository Structure
 
 To run the analyses successfully, organize your local directory as follows:
-├── Data/
-│   ├── H3_Data.xlsx
-│   ├── Q18.xlsx
-│   ├── Eng From free to fee responses.xlsx
-│   └── ro_data.xlsx
+
+your-project-folder/
+│
 ├── Scripts/
 │   ├── Script for H3.py
 │   ├── script for Q18 plot.py
-│   └── van westendrop PSM script.py
-└── README.md
+│   └── van westendrop PSM script.py    <-- (Run this script from here)
+│
+├── Data/
+│   ├── H3_Data.xlsx
+│   ├── Q18.xlsx
+│   ├── Eng From free to fee responses.xlsx   <-- (Used by PSM script)
+│   └── ro_data.xlsx                          <-- (Used by PSM script)
+│
+└── Outputs/
+    ├── H3_Results_Chart.png
+    ├── Hypothesis_2_Plot.png
+    └── PSM_Graph_Refined.png                 <-- (Auto-saved here)
 
 ---
 
