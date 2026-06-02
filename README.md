@@ -30,7 +30,6 @@ To run the analyses successfully, organize your local directory as follows:
 2. Install Required Libraries:
  The scripts are written in Python 3 and require the following data science and statistical packages:
 
-Bash
 pip install pandas numpy matplotlib scipy openpyxl
 
 3. Data Path Configuration:
